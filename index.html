@@ -333,7 +333,7 @@
               <span>2021 — 2025 </span>
 
               <p class="timeline-text">
-                B.A. at Berkeley's CDSS college. Activities and societies: Latin American Leadership Society, Open Project, Data Discovery Research Program,Berkeley's Financial Aid Office (FAO)
+                B.A. at Berkeley's CDSS college. Activities and Societies: Latin American Leadership Society, Open Project, Data Discovery Research Program,Berkeley's Financial Aid Office (FAO)
               </p>
 
             </li>
@@ -457,6 +457,149 @@
           </ol>
 
         </section>
+
+
+         
+
+         <!--
+        - #PROJECT SECTION STARTS
+      -->
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Endorsements & Outcomes: Causal & Predictive Analysis of 2022 U.S. Primaries</h4>
+
+
+              <span>Mar 2025 – May 2025</span>
+
+              <p class="timeline-text">
+   -Asked two things: do endorsements cause wins, and can we predict results?
+
+-Cleaned/merged FiveThirtyEight data; engineered features (endorsements, incumbency, fundraising, state/party).
+
+-Causal: drew a DAG to pick confounders; estimated propensity scores (logit); nearest-neighbor matching + IPW; checked balance (SMD); estimated ATE/ATT with bootstrap CIs.
+
+-Predictive: stratified splits; L1/L2 logistic regression and class-weighted Random Forest; threshold tuning.
+
+-Validation: 5-fold CV, ROC-AUC/precision/recall/F1, calibration; model explanation via permutation importance/SHAP.
+
+-Result: endorsements—especially Trump’s—and incumbency were most predictive; best RF reached ~0.78 F1.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Yelp Insights and NoSQL Data Processing with MongoDB</h4>
+
+              <span>Nov 2024 – Dec 2024</span>
+
+              <p class="timeline-text">
+    -Conducted in-depth analysis of semi-structured JSON datasets from Yelp's business, reviews, and user data using MongoDB.
+
+-Built a sentiment analysis pipeline with text indexing to uncover trends in customer feedback, enhancing business insights.
+
+-Optimized MongoDB aggregation pipelines to calculate city-wise performance metrics, ensuring fast and efficient data retrieval.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Energy Sensor Data Transformation Project</h4>
+
+
+              <span>Oct 2024 – Nov 2024</span>
+
+              <p class="timeline-text">
+-Designed and implemented ETL pipelines to clean and transform a pre of sensor data, handling billions of data points.
+
+-Leveraged PostgreSQL to construct scalable queries and optimized metadata processing for effective storage and retrieval.
+
+-Detected and addressed data quality issues using advanced statistical filtering methods like HampelX84, improving the reliability of energy management insights.
+              </p>
+
+            </li>
+              <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BYOW (build your own world)</h4>
+
+              <span>Nov 2023 - Dec 2023</span>
+
+              <p class="timeline-text">
+-Generated a fresh dungeon using Java from a user seed so worlds are repeatable; used Random, 2D tile arrays, and deterministic input tapes.
+
+-Guaranteed one connected map and smooth avatar movement; used BFS/flood-fill for connectivity and a wall/floor collision map with W/A/S/D loop.
+
+-Implemented save/load and testing; serialized game state (:Q/L), parsed inputs, and wrote JUnit tests.
+-Employed LinkedLists, ArrayLists and Hashets o provide rapid data retrieval and management.
+              </p>
+
+            </li>
+              <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NGordNet</h4>
+
+
+              <span>Oct 2023 – Nov 2023</span>
+
+              <p class="timeline-text">
+-Browser-based tool for exploring the history of word usage in English texts using large datasets (50,000 words).
+
+-Ingested Google N-grams and WordNet; implemented TimeSeries/NGramMap with HashMap/TreeMap, normalized frequencies, and efficient year-range aggregation.
+
+
+-Modeled WordNet as a synset DAG; computed hyponyms via BFS/DFS + set unions; cached results to avoid repeated traversals.
+
+
+-Exposed endpoints with lightweight Java web handlers (Spark/Jetty scaffold), returning JSON for frequency-filtered hyponyms across time windows.
+
+
+-Wrote JUnit tests; profiled asymptotics; reduced I/O via memoization and precomputed indices.
+              </p>
+
+            </li>
+
+                <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Spam and 'Ham' </h4>
+      
+
+              <span>Nov 2023 – Nov 2023</span>
+
+              <p class="timeline-text">
+-Built an end-to-end spam filter: cleaned raw emails and normalized text using regex, lowercasing, stop-word removal, and stemming/lemmatization.
+
+-Turned text into signals: bag-of-words and TF-IDF with sparse matrices; pruned rare terms and did chi-square feature selection.
+
+-Trained and tuned models: Multinomial Naive Bayes and L2-regularized Logistic Regression with k-fold CV and class weights.
+
+-Measured what matters: precision/recall, F1, ROC-AUC; calibration checks, confusion matrix, and error analysis to refine features.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <!--
+        - #PROJECT SECTION ENDS
+      --> 
 
         <section class="skill">
 
