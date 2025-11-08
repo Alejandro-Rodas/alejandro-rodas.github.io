@@ -1884,5 +1884,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin: -6px 0 6px;
 }
 
+	.contacts-list .icon-box { display:grid; place-items:center; }
+.contacts-list .icon-box ion-icon {
+  width: 22px; height: 22px;
+  color: #ffc054;         
+
 
 }
