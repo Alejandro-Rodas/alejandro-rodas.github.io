@@ -1897,5 +1897,22 @@ textarea.form-input::-webkit-resizer { display: none; }
   word-break: break-all;      /* or: overflow-wrap: anywhere; */
 }
 
+	:root {                 /* dark: black + light blue */
+  --bg: #050816;
+  --text: #e5e7eb;
+  --accent: #60a5fa;    /* light blue */
+}
+
+body.light-theme {      /* light: white + blue */
+  --bg: #ffffff;
+  --text: #0f172a;
+  --accent: #2563eb;    /* blue */
+}
+
+/* use vars everywhere */
+body { background: var(--bg); color: var(--text); }
+a, .btn, .tab.active { color: var(--accent); }
+
+
 
 }
