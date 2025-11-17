@@ -48,10 +48,10 @@
     hsl(0, 0%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
-  --text-gradient-yellow: linear-gradient(
+--text-gradient-yellow: linear-gradient(to right, #60a5fa, #38bdf8);
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+--orange-yellow-crayola: #60a5fa;
+--vegas-gold: #38bdf8;
   );
 
   /* solid */
@@ -110,6 +110,25 @@
   --transition-2: 0.5s ease-in-out;
 
 }
+body.light-theme {
+  /* backgrounds */
+  --smoky-black: #f3f4f6;
+  --eerie-black-1: #ffffff;
+  --eerie-black-2: #ffffff;
+  --jet: #e5e7eb;
+
+  /* text colors (make text dark) */
+  --white-1: #0f172a;
+  --white-2: #111827;
+  --light-gray: #4b5563;
+  --light-gray-70: rgba(75, 85, 99, 0.7);
+
+  /* blue accents for light mode */
+  --orange-yellow-crayola: #2563eb;
+  --vegas-gold: #1d4ed8;
+  --text-gradient-yellow: linear-gradient(to right, #2563eb, #1d4ed8);
+}
+
 
 
 
