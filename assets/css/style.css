@@ -55,13 +55,14 @@
 
   /* solid */
 
---jet: #1e293b;           /* slate-ish */
---onyx: #0f172a;          /* navbar/cards */
---eerie-black-1: #020617; /* main background */
---eerie-black-2: #020617;
---smoky-black: #020617;
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
+--jet: #4b5563;          /* borders / lines */
+--onyx: #1f2933;         /* cards / navbar */
+--eerie-black-1: #111827;/* main background (dark grey) */
+--eerie-black-2: #111827;
+--smoky-black: #111827;
+
+--white-1: #dbeafe;      /* main text: light blue */
+--white-2: #bfdbfe;      /* secondary text: lighter blue */
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
