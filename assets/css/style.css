@@ -1942,6 +1942,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 body.light-theme .download-link {
   color: #2563eb;
+	
+.highlight {
+  color: #60a5fa;      /* light blue */
+  font-weight: 600;    /* a bit bolder */
+}
+
 
 
 
