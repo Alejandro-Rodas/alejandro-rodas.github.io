@@ -55,12 +55,12 @@
 
 
   /* solid */
+--jet: #3a3a3a;          /* borders / lines */
+--onyx: #262626;         /* cards / navbar */
+--eerie-black-1: #262626;
+--eerie-black-2: #262626;
+--smoky-black: #262626;  /* page background */
 
---jet: #4b5563;          /* borders / lines */
---onyx: #1f2933;         /* cards / navbar */
---eerie-black-1: #111827;/* main background (dark grey) */
---eerie-black-2: #111827;
---smoky-black: #111827;
 
 --white-1: #dbeafe;      /* main text: light blue */
 --white-2: #bfdbfe;      /* secondary text: lighter blue */
