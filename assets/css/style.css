@@ -1,19 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -160,7 +145,7 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+img, ion-icon, a, button, time { display: block; }
 
 button {
   font: inherit;
@@ -1962,6 +1947,7 @@ body.light-theme .download-link {
 
 
 .about-text .highlight {
+display: inline;
   color: #60a5fa;
   font-weight: 600;
 }
