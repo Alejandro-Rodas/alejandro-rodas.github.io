@@ -1948,10 +1948,10 @@ body.light-theme .download-link {
   font-weight: 600;    /* a bit bolder */
 }
 
+
 .about-text .highlight {
-  color: var(--orange-yellow-crayola);  /* light blue */
+  color: #60a5fa;
   font-weight: 600;
 }
-
 
 }
