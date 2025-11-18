@@ -34,14 +34,14 @@
     hsla(240, 2%, 11%, 0) 100%
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
-    to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+    to bottom right,
+    #60a5fa 0%,
+    rgba(96, 165, 250, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
-    135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
+    135deg,
+    rgba(96, 165, 250, 0.25) 0%,
+    rgba(15, 23, 42, 0) 60%
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -51,7 +51,7 @@
 --text-gradient-yellow: linear-gradient(to right, #60a5fa, #38bdf8);
 --orange-yellow-crayola: #60a5fa;
 --vegas-gold: #38bdf8;
-  );
+  
 
   /* solid */
 
@@ -123,8 +123,7 @@ body.light-theme {
   --light-gray-70: rgba(75, 85, 99, 0.7);
 
   /* blue accents for light mode */
-  --orange-yellow-crayola: #2563eb;
-  --vegas-gold: #1d4ed8;
+
   --text-gradient-yellow: linear-gradient(to right, #2563eb, #1d4ed8);
 }
 
