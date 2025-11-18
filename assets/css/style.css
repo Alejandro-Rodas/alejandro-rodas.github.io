@@ -1933,9 +1933,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .download-link {
-  color: var(--orange-yellow-crayola);  /* your blue */
-  text-decoration: underline;          /* keeps the line */
+  color: var(--skin-color);   /* same blue as rest of site */
+  text-decoration: underline;
 }
+
 
 
 }
