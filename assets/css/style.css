@@ -1953,6 +1953,8 @@ body.light-theme .download-link {
   text-decoration: none;
   background: none;
 }
+.theme-icon { font-size: 20px; }
+
 
 
 }
