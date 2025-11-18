@@ -111,8 +111,8 @@
 }
 body.light-theme {
   /* backgrounds */
-  --smoky-black: #e5e7eb;   /* page */
-  --eerie-black-1: #e5e7eb;
+  --smoky-black: #cbd5e1;   /* page */
+  --eerie-black-1: #e5e7eb; /* cards */
   --eerie-black-2: #e5e7eb;
 
 
