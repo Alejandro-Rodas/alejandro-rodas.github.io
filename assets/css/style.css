@@ -1931,8 +1931,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   word-break: break-all;      /* or: overflow-wrap: anywhere; */
 }
 
-
-
-
+.resume-download-link {
+  color: var(--orange-yellow-crayola);
+  text-decoration: underline;
+}
+.download-link {
+  color: var(--orange-yellow-crayola);  /* your blue */
+  text-decoration: underline;
+}
 
 }
