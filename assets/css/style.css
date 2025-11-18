@@ -133,7 +133,9 @@ body.light-theme {
 
 /* fix “Data Scientist” pill text */
 body.light-theme .info-content .title {
-  color: #ffffff;
+  color: #e5e7eb;      /* same as navbar-link text */
+  background: #374151; /* same as navbar background, not black */
+  border: none;
 }
 
 
