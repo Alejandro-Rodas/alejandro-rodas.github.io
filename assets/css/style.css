@@ -1968,6 +1968,18 @@ body.light-theme .download-link {
 }
 .theme-icon { font-size: 20px; }
 
+body.light-theme .icon-box {
+  color: #173e76;              /* card icons */
+}
 
+body.light-theme .timeline-list span {
+  color: #173e76;              /* years text */
+}
+
+/* optional: dots on the line */
+body.light-theme .timeline-item::after {
+  background: #173e76;
+  border-color: #173e76;
+}
 
 }
