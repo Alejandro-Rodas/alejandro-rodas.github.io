@@ -45,10 +45,7 @@
   background: none;
 }
 
-body.light-theme .about-text .highlight {
-  color: #2563eb;
-  background: rgba(37,99,235,0.15);
-}
+
 
 
   /* solid */
@@ -105,6 +102,17 @@ body.light-theme .about-text .highlight {
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
+}
+.about-text .highlight {
+  display: inline;
+  font-weight: 600;
+  color: #60a5fa;
+  background: none !important;
+}
+
+body.light-theme .about-text .highlight {
+  color: #2563eb;
+  background: none !important;
 }
 body.light-theme {
   /* backgrounds */
