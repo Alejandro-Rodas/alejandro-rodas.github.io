@@ -1932,10 +1932,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   word-break: break-all;      /* or: overflow-wrap: anywhere; */
 }
 
-.download-link {
-  color: var(--skin-color);   /* same blue as rest of site */
+
+	.download-link {
+  color: var(--orange-yellow-crayola);
   text-decoration: underline;
+  display: inline;
 }
+
+body.light-theme .download-link {
+  color: #2563eb;
 
 
 
