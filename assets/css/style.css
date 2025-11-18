@@ -110,24 +110,25 @@
 
 }
 body.light-theme {
-  /* backgrounds */
-  --smoky-black: #f3f4f6;
-  --eerie-black-1: #ffffff;
-  --eerie-black-2: #ffffff;
-  --jet: #e5e7eb;
+  /* softer grey backgrounds */
+  --smoky-black: #d1d5db;      /* page background */
+  --eerie-black-1: #e5e7eb;    /* cards */
+  --eerie-black-2: #e5e7eb;
+  --jet: #9ca3af;
 
-  /* text colors (make text dark) */
-  --white-1: #0f172a;
-  --white-2: #111827;
+  /* dark text */
+  --white-1: #111827;
+  --white-2: #1f2937;
   --light-gray: #4b5563;
   --light-gray-70: rgba(75, 85, 99, 0.7);
-
-  /* blue accents for light mode */
 
   --text-gradient-yellow: linear-gradient(to right, #2563eb, #1d4ed8);
 }
 
-
+/* fix “Data Scientist” pill text */
+body.light-theme .info-content .title {
+  color: #ffffff;
+}
 
 
 
