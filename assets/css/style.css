@@ -231,7 +231,10 @@ article {
   border-radius: inherit;
   z-index: -1;
 }
-
+/* Clear theme: deeper blue icons */
+body.light-theme .icon-box {
+  color: #173e76;  /* your sample blue */
+}
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
 article { display: none; }
