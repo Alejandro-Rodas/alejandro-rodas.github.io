@@ -48,9 +48,10 @@
     hsl(0, 0%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
---text-gradient-yellow: linear-gradient(to right, #2563eb, #1d4ed8);
---orange-yellow-crayola: #2563eb;
---vegas-gold: #1d4ed8;
+--text-gradient-yellow: linear-gradient(to right, #60a5fa, #93c5fd);
+--orange-yellow-crayola: #60a5fa;
+--vegas-gold: #93c5fd;
+
 
 
   /* solid */
