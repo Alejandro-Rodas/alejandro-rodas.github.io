@@ -55,11 +55,11 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+--jet: #1e293b;           /* slate-ish */
+--onyx: #0f172a;          /* navbar/cards */
+--eerie-black-1: #020617; /* main background */
+--eerie-black-2: #020617;
+--smoky-black: #020617;
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --light-gray: hsl(0, 0%, 84%);
