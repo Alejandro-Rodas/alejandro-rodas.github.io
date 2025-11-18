@@ -109,8 +109,8 @@ body.light-theme .about-text .highlight {
 body.light-theme {
   /* backgrounds */
   --smoky-black: #cbd5e1;   /* page */
-  --eerie-black-1: #e5e7eb; /* cards */
-  --eerie-black-2: #e5e7eb;
+  --eerie-black-1: #d4d4d8; /* cards */
+  --eerie-black-2: #d4d4d8;
 
 
   /* text */
