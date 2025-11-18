@@ -134,13 +134,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 
-  const btn = document.getElementById("theme-toggle");
+const btn = document.getElementById("theme-toggle");
 
-if (localStorage.theme === "light") document.body.classList.add("light-theme");
+// light = default
+if (!localStorage.theme || localStorage.theme === "light") {
+  document.body.classList.add("light-theme");
+  localStorage.theme = "light";
+}
 
 btn.addEventListener("click", () => {
   document.body.classList.toggle("light-theme");
   localStorage.theme = document.body.classList.contains("light-theme") ? "light" : "dark";
 });
-
 }
