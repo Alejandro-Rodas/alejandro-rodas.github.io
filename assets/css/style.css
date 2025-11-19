@@ -1974,7 +1974,7 @@ body.light-theme .icon-box {
 
 body.light-theme .timeline-list span {
   color: #173e76;              /* years text */
-}
+} 
 
 /* optional: dots on the line */
 body.light-theme .timeline-item::after {
