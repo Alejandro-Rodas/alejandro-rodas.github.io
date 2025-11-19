@@ -1950,6 +1950,9 @@ body.light-theme .form-btn:hover::before {
   width: 22px; height: 22px;
   color: var(--orange-yellow-crayola);
 }
+	body.light-theme .contacts-list .icon-box ion-icon {
+  color: #173e76;
+}
 	.contact-link{
   white-space: normal;        /* allow wrapping */
   overflow: visible;
