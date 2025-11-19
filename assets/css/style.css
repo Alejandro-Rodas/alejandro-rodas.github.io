@@ -1242,6 +1242,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   transition: var(--transition-1);
 }
 
+
+body.light-theme .form-btn {
+  background: #374151;
+  color: #e5e7eb;
+}
+
+body.light-theme .form-btn::before {
+  background: #374151;
+}
+
+body.light-theme .form-btn:hover,
+body.light-theme .form-btn:hover::before {
+  background: #4b5563;
+}
+
 .form-btn::before {
   content: "";
   position: absolute;
@@ -1934,7 +1949,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .contacts-list .icon-box ion-icon {
   width: 22px; height: 22px;
   color: var(--orange-yellow-crayola);
-
+}
 	.contact-link{
   white-space: normal;        /* allow wrapping */
   overflow: visible;
@@ -1952,7 +1967,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 body.light-theme .download-link {
   color: #2563eb;
-	
+}	
 .highlight {
   color: #60a5fa;      /* light blue */
   font-weight: 600;    /* a bit bolder */
@@ -1982,18 +1997,5 @@ body.light-theme .timeline-item::after {
   border-color: #173e76;
 }
 
-	body.light-theme .form-btn {
-  background: #374151;      /* same as navbar background */
-  color: #e5e7eb;           /* same as navbar/Data Scientist text */
-}
-
-body.light-theme .form-btn::before {
-  background: #374151;
-}
-
-body.light-theme .form-btn:hover,
-body.light-theme .form-btn:hover::before {
-  background: #4b5563;      /* slightly lighter on hover */
-}
 
 }
