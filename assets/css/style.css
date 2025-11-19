@@ -2012,5 +2012,28 @@ body.light-theme .timeline-item::after {
     left: -23px;
   }
 }
+	/* Light theme: dark blue icons + years on ALL screens */
+body.light-theme .icon-box,
+body.light-theme .contacts-list .icon-box ion-icon,
+body.light-theme .timeline-list span {
+  color: #173e76;
+}
+
+body.light-theme .timeline-item::after {
+  background: #173e76;
+  border-color: #173e76;
+}
+
+/* Mobile: keep titles fully visible */
+@media (max-width: 600px) {
+  .timeline-list { margin-left: 30px; }
+  .timeline-item:not(:last-child)::before { left: -20px; }
+  .timeline-item::after { left: -23px; }
+}
+
+/* Make your logo clearly visible */
+.clients-item img {
+  filter: none;
+}
 
 }
