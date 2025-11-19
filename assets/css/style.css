@@ -1982,4 +1982,18 @@ body.light-theme .timeline-item::after {
   border-color: #173e76;
 }
 
+	body.light-theme .form-btn {
+  background: #374151;      /* same as navbar background */
+  color: #e5e7eb;           /* same as navbar/Data Scientist text */
+}
+
+body.light-theme .form-btn::before {
+  background: #374151;
+}
+
+body.light-theme .form-btn:hover,
+body.light-theme .form-btn:hover::before {
+  background: #4b5563;      /* slightly lighter on hover */
+}
+
 }
