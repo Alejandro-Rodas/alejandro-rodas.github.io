@@ -1999,6 +1999,18 @@ body.light-theme .timeline-item::after {
   background: #173e76;
   border-color: #173e76;
 }
+@media (max-width: 600px) {
+  .timeline-list {
+    margin-left: 30px;        /* move text left */
+  }
 
+  .timeline-item:not(:last-child)::before {
+    left: -20px;
+  }
+
+  .timeline-item::after {
+    left: -23px;
+  }
+}
 
 }
