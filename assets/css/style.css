@@ -362,8 +362,8 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 16px;
-  overflow: hidden; 
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .info-content .name {
@@ -1897,8 +1897,7 @@ body.light-theme .form-btn:hover::before {
 
   .sidebar-info { flex-direction: column; }
 
-.avatar-box img { width: 150px; border-radius: 16px; object-fit: cover; }
-
+.avatar-box img { width: 150px; border-radius: 20px; object-fit: cover; }
   .info-content .name {
     white-space: nowrap;
     text-align: center;
