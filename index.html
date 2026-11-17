@@ -1255,7 +1255,12 @@ statistical analyses and visualizations to a federal report scheduled for releas
   document.getElementById('contactForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const f = e.target;
-
+const vars = {
+  fullname: f.fullname.value,
+  first_name: f.fullname.value.trim().split(/\s+/)[0],
+  reply_to: f.email.value,
+  message:  f.message.value
+};
     const vars = {
       fullname: f.fullname.value,
       reply_to: f.email.value,   // map to {{reply_to}} in templates
