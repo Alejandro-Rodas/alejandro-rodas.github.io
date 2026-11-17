@@ -1261,6 +1261,11 @@ statistical analyses and visualizations to a federal report scheduled for releas
       first_name: f.fullname.value.trim().split(/\s+/)[0],
       reply_to: f.email.value,
       message:  f.message.value
+    };
+
+    try {
+      // 1) notifies me
+      await emailjs.send(SERVICE_ID, TEMPLATE_ME, vars);
   
       // 2) auto-reply to the sender
       await emailjs.send(SERVICE_ID, TEMPLATE_USER, vars);
