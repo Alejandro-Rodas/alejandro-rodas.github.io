@@ -1218,6 +1218,7 @@ statistical analyses and visualizations to a federal report scheduled for releas
     <input name="fullname" class="form-input" placeholder="Full name" required data-form-input>
     <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
   </div>
+    <input type="url" name="linkedin" class="form-input" placeholder="LinkedIn URL (optional)" style="margin-bottom: 25px;">
   <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
   <button class="form-btn" type="submit" data-form-btn>
     <ion-icon name="paper-plane"></ion-icon><span>Send Message</span>
@@ -1259,6 +1260,7 @@ statistical analyses and visualizations to a federal report scheduled for releas
     const vars = {
       fullname: f.fullname.value,
       first_name: f.fullname.value.trim().split(/\s+/)[0],
+      linkedin: f.linkedin.value.trim() || "Not provided",
       reply_to: f.email.value,
       message:  f.message.value
     };
